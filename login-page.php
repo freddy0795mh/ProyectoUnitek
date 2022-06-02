@@ -14,7 +14,7 @@
 <body class="body-login-page-php">
     <div class="d-flex justify-content-center p-5 login-page-form text-white">
         <div>
-            <h1 class="mt-5 mb-4 text-center">Films+</h1>
+            <a href="index.html" class="text-decoration-none text-white"><h1 class="mt-5 mb-4 text-center">Films+</h1></a>
             <h4 class="mb-3">Iniciar sesión con tu correo</h4>
             <div class="input-group mb-3">
                 <input type="text" class="form-control p-3" placeholder="Ingrese su correo" aria-label="Ingrese su correo" aria-describedby="basic-addon2">
@@ -24,7 +24,7 @@
                 <input type="password" class="form-control p-3" placeholder="Ingrese su contraseña" aria-label="contraseña" aria-describedby="basic-addon2">
                 <span class="input-group-text" id="basic-addon2"><i class="bi bi-chat-square-dots-fill"></i></span>
             </div>
-            <button type="button" class="btn btn-primary btn-lg w-100 mt-3">Iniciar Sesion</button>
+            <a href="home.php"><button type="button" class="btn btn-primary btn-lg w-100 mt-3">Iniciar Sesion</button><a/>
             <div>
                 <h4 class="mt-4 fs-6 text-secondary">¿No estas registrado en Films+? <a href="register-page.php" class="nav-item text-white text-decoration-none" title="Registrate">Registrate</a></h4>
             </div>

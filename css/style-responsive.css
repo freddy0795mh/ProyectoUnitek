@@ -1,0 +1,200 @@
+@media (max-width: 1024px) {
+
+    *{
+        font-size: 14px;
+    }
+
+    .main-index {
+    width: 100% !important ;
+    height: 90vh;
+    padding-top: 10vh !important;
+    padding-bottom: 0vh !important;
+    flex-direction: column-reverse !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .div-index-main-absol{
+        width: 90% !important;
+        display: flex !important; 
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 4vw !important;
+        height: 60% !important;
+    }
+
+    .carousel-index{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .carousel-index .carousel-inner{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .div-index-main{
+        width: 100% !important;
+        padding-top: 0vh !important;
+        height: 40% !important;
+        font-size: 1rem !important;
+    }
+
+    .section-ancla{
+        flex-direction: column !important;
+        padding: 1vw !important;
+    }
+    
+    .div-productoras{
+        width: 100% !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap !important;
+    }
+
+    .ancla-href{
+        display: none !important;
+    }
+
+    .card-plans{
+        width: 50vw !important;
+    }
+
+    .section-plans{
+        height: 70vh;
+        margin-top: 5vh !important;
+        margin-bottom: 5vh !important;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+
+    .section-ancla{
+        padding: 0vw !important;
+    }
+    
+    .div-productoras{
+        padding: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap !important;
+    }
+
+    .section-plans{
+        height: auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 10vw !important;
+    }
+
+    .section-cards-plans{
+        display: flex;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 2vh !important;
+    }
+
+    .card-plans{
+        width: 100% !important;
+        margin: 2vw !important;
+    }
+
+}
+
+  @media (max-width: 425px) {
+
+    .header-index{
+        width: 100% !important;
+        flex-direction: column;
+        height: auto !important;
+        position: relative;
+    }
+
+    .main-index {
+        width: 100% !important ;
+        padding-top: 2vh !important;
+        justify-content: space-between !important;
+    }
+
+    .div-index-main-absol{
+        width: 80% !important;
+        height: 30% !important;
+        padding: 0px !important;
+    }
+
+    .carousel-index{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .div-index-main{
+        width: 100% !important;
+        padding-top: 0vh !important;
+        margin-top: 0vh !important;
+        height: 70% !important;
+        font-size: 1rem !important;
+        padding-bottom: 0 !important;
+    }
+
+    .section-ancla{
+        padding: 0vw !important;
+        height: 40vh !important;
+    }
+    
+    .div-productoras{
+        padding: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        justify-content: space-between !important;
+        flex-wrap: nowrap !important;
+        flex-direction: column;
+    }
+
+    .div-productoras img{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .section-plans{
+        height: auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .section-cards-plans{
+        display: flex;
+        flex-wrap: wrap !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: 2vh !important;
+    }
+
+    .card-plans{
+        width: 100% !important;
+        margin: 2vw !important;
+    }
+
+
+    .foot-index{
+        width: 100% !important;
+    }
+
+    footer{
+        justify-content: center !important;
+        height: auto !important;
+    }
+
+    .navbar-nav{
+        flex-direction: column !important;
+    }
+
+    .nav-item-foot{
+        margin: 0 !important;
+    }
+    
+  }

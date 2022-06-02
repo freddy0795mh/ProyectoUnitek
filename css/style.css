@@ -8,31 +8,36 @@
 
 .body-index{
     background-color: #080918;
+    width: 100% !important;
 }
 
 .header-index{
-    width: 100vw;
+    width: 100vw !important;
     height: 10vh;
     position: fixed;
     display: flex;
     justify-content: space-between !important;
     background-color: #080918;
+    z-index: 1;
 }
 
-.div-index-main-absol{
-    z-index: -1;
-    width: 60vw !important;
-    height: 100vh !important;
-    right: 0;
-}
-
-.div-index-main{
-    width: 45vw !important;
+.buttons-header{
+    padding-right: 2vw;
 }
 
 .main-index{
     height: 90vh;
 }
+
+.div-index-main-absol{
+    width: 60vw !important;
+    right: 0;
+}
+
+.div-index-main{
+    width: 40vw !important;
+}
+
 
 .section-ancla{
     height: 10vh;
@@ -73,7 +78,6 @@ footer{
     height: 40vh;
 }
 
-
 /* Estilos pagina login-page.php */
 
 .body-login-page-php{
@@ -82,4 +86,97 @@ footer{
 
 .login-page-form{
     height: 100vh;
+}
+
+/* Estilos pagina home.php */
+
+.body-home{
+    background-color: #12141a;
+}
+
+.header-home{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between !important;
+    background-color: #12141a;
+    z-index: 1;
+}
+
+.main-home{
+    padding: 5vw;
+    height: 30vh;
+}
+
+.card-home{
+    width: 16vw;
+    height: 16vh;
+    color: white;
+    background-color: #1a1a25;
+    cursor: pointer;
+}
+
+.card-pixar{
+    width: 9vw;
+    transition: all 0.5s;
+}
+
+.card-paramount{
+    width: 6vw;
+    transition: all 0.5s;
+}
+
+.card-warner{
+    width: 7vw;
+    height: 11vh;
+    transition: all 0.5s;
+}
+
+.card-pixar:hover{
+    width: 10vw;
+    transition: all 0.5s;
+}
+
+.card-paramount:hover{
+    width: 7vw;
+    transition: all 0.5s;
+}
+
+.card-warner:hover{
+    width: 8vw;
+    height: 12vh;
+    transition: all 0.5s;
+}
+
+.section-home-1{
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.card-films{
+    border-radius: 2px;
+    width: 20vw;
+    height: 20vh;
+    margin: -5px;
+    cursor: pointer;
+}
+
+.card-films:hover{
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition: 800ms;
+}
+
+.header-nav-home{
+    height: 10vh !important;
+}
+
+#portada{
+    height: 50vh;
+    border: 1px solid red;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
