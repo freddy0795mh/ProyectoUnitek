@@ -85,7 +85,7 @@ footer{
 }
 
 .login-page-form{
-    height: 100vh;
+    height: auto;
 }
 
 /* Estilos pagina home.php */

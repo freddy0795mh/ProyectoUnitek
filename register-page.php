@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
     <title>Films+</title>
 </head>
 <body class="body-login-page-php">
     <div class="d-flex justify-content-center p-5 login-page-form text-white">
-        <div class="w-50">
+        <div class="form-register-page w-75">
             <a href="index.html" class="text-decoration-none text-white"><h1 class="mt-5 mb-4 text-center">Films+</h1></a>
             <h3 class="mb-3">Ingresa tus datos personales</h3>
-            <div class="d-flex flex-wrap justify-content-center align-items-center">
+            <div class="d-flex flex-wrap justify-content-center align-items-center form-input-register">
                 <div class="mb-3 w-50 p-2 ps-0">
                     <h5 class="text-secondary">* Nombres</h5>
                     <div class="input-group">
@@ -52,18 +53,20 @@
                         <span class="input-group-text" id="basic-addon2"> <img src="img/visa.png" alt=""> &nbsp; <img src="img/american-express.png" alt=""></span>
                     </div>
                 </div>
-                <div class="mb-3 w-25 p-2 ps-0">
-                    <h5 class="text-secondary">Fecha de vencimiento</h5>
-                    <div class="input-group">
-                        <input type="text" class="form-control p-3" placeholder="MM/AA" aria-label="MM/AA" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2">*</span>
+                <div class="mb-3 w-50 ps-0 d-flex justify-content-between align-items-center flex-row">
+                    <div class="p-2 w-100 ps-0">
+                        <h5 class="text-secondary">Fecha de vencimiento</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="MM/AA" aria-label="MM/AA" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">*</span>
+                        </div>
                     </div>
-                </div>
-                <div class="mb-3 w-25 p-2 ps-0">
-                    <h5 class="text-secondary">Codigo de seguridad</h5>
-                    <div class="input-group">
-                        <input type="text" class="form-control p-3" placeholder="CVV" aria-label="CVV" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2">*</span>
+                    <div class="p-2 w-100 ps-0">
+                        <h5 class="text-secondary">Codigo de seguridad</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="CVV" aria-label="CVV" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">*</span>
+                        </div>
                     </div>
                 </div>
                 <div class="w-50 p-2 ps-0">

@@ -4,6 +4,8 @@
         font-size: 14px;
     }
 
+    /* Editando la pagina index.html */
+
     .main-index {
     width: 100% !important ;
     height: 90vh;
@@ -65,10 +67,19 @@
         margin-top: 5vh !important;
         margin-bottom: 5vh !important;
     }
+
+    /* Fin de Edicion  */
+    /* Editando formulario de registro */
     
+    .form-register-page{
+        width: 90% !important;
+    }
+
   }
 
   @media (max-width: 768px) {
+
+    /* Editando la pagina index.html */
 
     .section-ancla{
         padding: 0vw !important;
@@ -102,6 +113,19 @@
         width: 100% !important;
         margin: 2vw !important;
     }
+
+    /* Fin de Edicion  */
+    /* Editando formulario de registro */
+
+    .form-input-register{
+        flex-wrap: nowrap !important;
+        flex-direction: column !important;
+    }
+
+    .form-input-register .w-50{
+        width: 100% !important;
+    }
+
 
 }
 
