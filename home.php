@@ -53,28 +53,27 @@
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Recomendados para ti</div>
         <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney1.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney2.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney5.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel1.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel4.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel5.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel5.JPG" alt="">
         </div>
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Novedades en Films+</div>
         <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
-        </div>
-    </section>
-    <section class="text-white section-home-1 d-flex justify-content-left flex-column">
-        <div class="mb-3 fw-bolder fs-5">Estrenos</div>
-        <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
+        <img class="card-films" src="img/imgpeliculas/cienciaficcion2.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney3.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney4.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/disney6.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel7.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel8.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/cienciaficcion3.JPG" alt="">
         </div>
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
