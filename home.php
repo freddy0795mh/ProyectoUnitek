@@ -40,7 +40,40 @@
     <section class="header-nav-home"></section>
     <section id="portada" class="d-flex justify-content-center align-items-center">
       <div class="bg-dark w-100">
-        <h4 class="text-white">Hola</h4>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center div-portada" data-bs-interval="10000">
+              <img src="img/imagen3.jpg" class="d-block w-100 img-portada-slider" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </section>
     <main class="d-flex w-100 justify-content-around align-items-right main-home">
@@ -65,8 +98,8 @@
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Novedades en Films+</div>
-        <div class="d-flex justify-content-between align-items-center">
-        <img class="card-films" src="img/imgpeliculas/cienciaficcion2.JPG" alt="">
+          <div class="d-flex justify-content-between align-items-center">
+          <img class="card-films" src="img/imgpeliculas/cienciaficcion2.JPG" alt="">
           <img class="card-films" src="img/imgpeliculas/disney.JPG" alt="">
           <img class="card-films" src="img/imgpeliculas/disney3.JPG" alt="">
           <img class="card-films" src="img/imgpeliculas/disney4.JPG" alt="">
@@ -74,33 +107,36 @@
           <img class="card-films" src="img/imgpeliculas/marvel7.JPG" alt="">
           <img class="card-films" src="img/imgpeliculas/marvel8.JPG" alt="">
           <img class="card-films" src="img/imgpeliculas/cienciaficcion3.JPG" alt="">
-        </div>
+          </div>
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Peliculas de Marvel</div>
         <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel1.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel7.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel3.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel4.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel5.JPG" alt="">
+          <img class="card-films" src="img/imgpeliculas/marvel6.JPG" alt="">
         </div>
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Peliculas de Pixar</div>
         <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/pixar.JPG" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/pixar1.jfif" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/pixar3.jpg" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/pixar4.jfif" alt="">
         </div>
     </section>
     <section class="text-white section-home-1 d-flex justify-content-left flex-column">
         <div class="mb-3 fw-bolder fs-5">Peliculas de Disney</div>
         <div class="d-flex justify-content-between align-items-center">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen2.jpg" alt="">
-          <img class="card-films" src="img/imagen1.jpg" alt="">
-          <img class="card-films" src="img/imagen3.jpg" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/disney8.JPG" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/disney9.png" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/disney10.jfif" alt="">
+          <img class="card-films card-horizontal" src="img/imgpeliculas/pixar4.jfif" alt="">
         </div>
     </section>
     <footer id="foot" class="d-flex flex-column text-secondary align-items-right justify-content-end p-5">

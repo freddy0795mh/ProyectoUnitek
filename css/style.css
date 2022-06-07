@@ -164,6 +164,10 @@ footer{
     cursor: pointer;
 }
 
+.card-horizontal{
+    width: 20vw !important;
+}
+
 .card-films:hover{
     border: 2px solid white;
     transform: scale(1.1);
@@ -179,4 +183,16 @@ footer{
     border: 1px solid red;
     padding-left: 6vw;
     padding-right: 6vw;
+}
+
+.div-portada{
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.img-portada-slider{
+    height: 50vh !important;
+    width: 80% !important;
 }
