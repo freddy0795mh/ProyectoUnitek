@@ -15,7 +15,9 @@
 <body class="body-login-page-php">
     <div class="d-flex justify-content-center p-5 login-page-form text-white">
         <div class="form-register-page w-75">
-            <a href="index.html" class="text-decoration-none text-white"><h1 class="mt-5 mb-4 text-center">Films+</h1></a>
+            <div class="d-flex justify-content-center align-items-center mb-4 mt-4">
+                <a href="index.html" class="text-decoration-none"><img src="img/logo.png" class="img-logo-header logo-header-login" alt=""></a>
+            </div>
             <h3 class="mb-3">Ingresa tus datos personales</h3>
             <div class="d-flex flex-wrap justify-content-center align-items-center form-input-register">
                 <div class="mb-3 w-50 p-2 ps-0">

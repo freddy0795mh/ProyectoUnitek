@@ -14,8 +14,10 @@
 <body class="body-login-page-php">
     <div class="d-flex justify-content-center p-5 login-page-form text-white">
         <div>
-            <a href="index.html" class="text-decoration-none text-white"><h1 class="mt-5 mb-4 text-center">Films+</h1></a>
-            <h4 class="mb-3">Iniciar sesión con tu correo</h4>
+            <div class="d-flex justify-content-center align-items-center mb-4 mt-4">
+                <a href="index.html" class="text-decoration-none"><img src="img/logo.png" class="img-logo-header logo-header-login" alt=""></a>
+            </div>
+            <h4 class="mb-3 d-flex justify-content-center align-items-center">Iniciar sesión con tu correo</h4>
             <div class="input-group mb-3">
                 <input type="text" class="form-control p-3" placeholder="Ingrese su correo" aria-label="Ingrese su correo" aria-describedby="basic-addon2">
                 <span class="input-group-text" id="basic-addon2">@example.com</span>
